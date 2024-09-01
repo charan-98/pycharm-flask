@@ -9,20 +9,23 @@ def home_page():
 @app.route("/next")
 def next_page():
     return "<h>This Second Page </h>"
-
-@app.route("/third")
-def next_page():
-    return "<h>This Second Page </h>"
-
-@app.route("/fourth")
-def next_page():
-    return "<h>This Second Page </h>"
-
-@app.route("/fetch")
-def next_page():
-    return "<h>This Second Page </h>"
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
-
+#
+# @app.route("/third")
+# def next_page():
+#     return "<h>This Second Page </h>"
+#
+# @app.route("/fourth")
+# def next_page():
+#     return "<h>This Second Page </h>"
+#
+# @app.route("/fetch")
+# def next_page():
+#     return "<h>This Second Page </h>"
+# @app.route("/fetch")
+# def next_page():
+#     return "<h>This Second Page </h>"
+#
+# if __name__ == '__main__':
+#     app.run(debug=True)
+#
+#
